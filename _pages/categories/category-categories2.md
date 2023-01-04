@@ -1,9 +1,9 @@
 ---
-title: "Categories2"
+title: "Swift"
 layout: category
-permalink: /categories/categories2/
+permalink: /categories/Swift/
 author_profile: true
-taxonomy: Categories2
+taxonomy: Swift
 sidebar:
   nav: "categories"
 ---
