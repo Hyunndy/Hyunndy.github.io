@@ -34,17 +34,17 @@ WWDC19에서 발표한 Apple의 DataSource
 변경된 부분만 새로 다시 그린다.
 기존과 다르게 protocol이 아닌 Generic Class.
 
-###필요한 개념
+### 필요한 개념
 * (GenericType) SectionIdentifierType: Hashable
 * (GenericType) ItemIdentidifierType: Hashable
 * SnapShot
 
-###예시
+### 예시
     class UITableViewDiffableDataSource<SectionIdentifierType, ItemIdentifierType> : NSObject where SectionIdentifierType : Hashable, ItemIdentifierType : Hashable
 
     struct NSDiffableDataSourceSnapshot<SectionIdentifierType, ItemIdentifierType> where SectionIdentifierType : Hashable, ItemIdentifierType : Hashable
 
-     var dataSource: UICollectionViewDiffableDataSource<Int, String>!
+    var dataSource: UICollectionViewDiffableDataSource<Int, String>!
 
 ## RxDataSource
 
